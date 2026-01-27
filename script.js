@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: 4,
-            date: "FRAMEWORK: ASP.NET Core Web API",
+            date: "ASP.NET Core Web API",
             title: "Repuestos Adrian",
             imageUrl: "images/mecanica.jpg",
             preview: "Sistema Web y API para Inventario y Venta de Repuestos Automotrices",
@@ -43,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: 5,
-            date: "FRAMEWORK: ANGULAR",
-            title: "SISVET - MARIVET",
+            date: "LANGUAGE: PYTHON",
+            title: "PETGLOW",
             imageUrl: "images/marivet.jpg",
-            preview: "MariVET | Sistema Web de Gestión Veterinaria en Desarrollo",
-            description: "Actualmente en desarrollo, el sistema MariVET busca digitalizar la gestión de pacientes y optimizar la atención al cliente en la veterinaria. Construido en Angular y desplegado en AWS, permitirá un control integral de historiales clínicos, citas y servicios. Además, se implementará una PC de gama media administrativa para el uso constante del sistema y garantizar un flujo de trabajo eficiente.",
+            preview: "PetGlow | Sistema Web de Gestión Veterinaria Groomers en Desarrollo",
+            description: "Actualmente en desarrollo, el sistema PetGlow busca digitalizar la gestión de mascotas y optimizar la atención al cliente en la veterinaria. Construido en Python y desplegado en AWS, permitirá un control integral de historiales de cortes, reservas y servicios. Además, se implementará una PC de gama media administrativa para el uso constante del sistema y garantizar un flujo de trabajo eficiente.",
             location: "in working",
             time: "..."
         },
@@ -271,4 +271,5 @@ card.innerHTML = `
 
     // Initialize the carousel
     init();
+
 });
