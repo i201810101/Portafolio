@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imageUrl: "images/PetGlow.jpg",
             preview: "PetGlow | Sistema Web de Gestión Veterinaria Groomers en Desarrollo",
             description: "Actualmente en desarrollo, el sistema PetGlow busca digitalizar la gestión de mascotas y optimizar la atención al cliente en la veterinaria. Construido en Python y desplegado en AWS, permitirá un control integral de historiales de cortes, reservas y servicios. Además, se implementará una PC de gama media administrativa para el uso constante del sistema y garantizar un flujo de trabajo eficiente.",
-            location: "in working",
+            location: "https://github.com/i201810101/PetGlow",
             time: "..."
         },
         {
@@ -273,5 +273,6 @@ card.innerHTML = `
     init();
 
 });
+
 
 
