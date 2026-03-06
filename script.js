@@ -51,8 +51,30 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "https://github.com/i201810101/PetGlow",
             time: "..."
         },
+        // --- NUEVO: EnglishLearn - Tutor de Inglés con IA ---
         {
-            id: 6,
+            id: 6, // Asegúrate de que el ID sea único (sigue al 6)
+            date: "LANGUAGE: PYTHON - GROQ AI",
+            title: "ENGLISHLEARN - TUTOR IA",
+            imageUrl: "images/englishlearn.jpg", // Necesitarás crear esta imagen
+            preview: "Tutor interactivo por voz con Groq + LLaMA 3.1. ¡Presiona el botón y habla!",
+            description: "Asistente conversacional 100% por voz para practicar inglés. Usa IA de Groq, reconocimiento de voz de Google y texto a voz natural. Incluye traducción automática, sugerencias de respuesta y quiz de vocabulario cada 5 minutos. Desplegado en Render y GitHub Pages.",
+            location: "https://otonashi8.github.io/ingleslearn/",
+            time: "ACTIVO"
+        },
+        // --- NUEVO: Videojuegos en Python (Puedes detallar uno específico) ---
+        {
+            id: 7,
+            date: "LANGUAGE: PYTHON - PYGAME",
+            title: "VIDEOJUEGOS CON PYGAME",
+            imageUrl: "images/game_dev.jpg", // Necesitarás crear esta imagen
+            preview: "Desarrollo de videojuegos 2D utilizando la librería Pygame.",
+            description: "Proyectos de juegos clásicos recreados en Python con Pygame, demostrando conceptos de programación orientada a objetos, física básica, manejo de eventos y sprites. (Ejemplo: Snake, Space Invaders, o un juego propio).",
+            location: "ejecutable", // Link a tu repo de juegos si lo tienes
+            time: "TERMINADO"
+        },
+                {
+            id: 8,
             date: "PROCESS: Desconocido",
             title: "Proximamente",
             imageUrl: "images/work.png",
@@ -60,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Desconocido",
             location: "cloud-server:port",
             time: "NOW"
-        }
+        },
     ];
 
     // Generate memory cards
@@ -273,6 +295,7 @@ card.innerHTML = `
     init();
 
 });
+
 
 
 
