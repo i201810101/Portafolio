@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imageUrl: "images/goenjoy.jpg",
             preview: " Analista Desarrollador FullstackJunior,Sistema Web de Asistencia en Tiempo Real | Go Enjoy Perú",
             description: "Diseñé e implementé un sistema de asistencia web en PHP y MySQL para Go Enjoy Perú. Reemplacé el uso de huellero y Excel, permitiendo a RR.HH. y jefes ver la asistencia en tiempo real. El sistema genera reportes mensuales con descuentos por tardanzas y cálculos automáticos de pagos.",
-            location: "http://goenjoyasistens.byethost33.com",
+            location: "http://goenjoyasistens.byethost33.com , https://ingleslearn-api.onrender.com",
             time: "2 Meses"
         },
         {
@@ -295,6 +295,7 @@ card.innerHTML = `
     init();
 
 });
+
 
 
 
