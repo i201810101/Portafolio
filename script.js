@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id: 4,
             date: "LANGUAGE: HTML · CSS · JavaScript",
             title: "REPUESTOS ADRIÁN",
-            imageUrl: "images/mecanica.jpg",
+            imageUrl: "images/mecanicas.jpg",
             preview: "Página web de catálogo para tienda de rodajes y embragues en Lima.",
             description: "Sitio web responsive para una tienda física de repuestos automotrices. Muestra catálogo con imágenes de productos (collarines, tensores, bombas de embrague, rodajes), sección de ubicación, horario y contacto directo por WhatsApp. Diseño moderno con fuentes industriales y carrusel de productos con Swiper.js. Desplegado en Netlify.",
             location: "https://repuestos-adrian.netlify.app/",
