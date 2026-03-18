@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: 4,
-            date: "ASP.NET Core Web API",
-            title: "Repuestos Adrian",
+            date: "LANGUAGE: HTML · CSS · JavaScript",
+            title: "REPUESTOS ADRIÁN",
             imageUrl: "images/mecanica.jpg",
-            preview: "Sistema Web y API para Inventario y Venta de Repuestos Automotrices",
-            description: "Desarrollé una página web y un servicio web en ASP.NET Core para una tienda de repuestos. La web muestra productos, ubicación y contacto directo por correo o WhatsApp. El API gestiona inventario en SQL Server, categorizando piezas como collarines, tensores y bombas de embrague, optimizando stock y búsqueda por marca o número de parte.",
-            location: "Localhost:7016",
-            time: "2 Meses"
+            preview: "Página web de catálogo para tienda de rodajes y embragues en Lima.",
+            description: "Sitio web responsive para una tienda física de repuestos automotrices. Muestra catálogo con imágenes de productos (collarines, tensores, bombas de embrague, rodajes), sección de ubicación, horario y contacto directo por WhatsApp. Diseño moderno con fuentes industriales y carrusel de productos con Swiper.js. Desplegado en Netlify.",
+            location: "https://repuestos-adrian.netlify.app/",
+            time: "1 Mes"
         },
         {
             id: 5,
@@ -73,15 +73,15 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "ejecutable", // Link a tu repo de juegos si lo tienes
             time: "TERMINADO"
         },
-                {
+        {
             id: 8,
-            date: "PROCESS: Desconocido",
-            title: "Proximamente",
-            imageUrl: "images/work.png",
-            preview: "Desconocido",
-            description: "Desconocido",
-            location: "cloud-server:port",
-            time: "NOW"
+            date: "LANGUAGE: PYTHON · FLASK · MYSQL",
+            title: "VENTASPRO - SISTEMA DE VENTAS",
+            imageUrl: "images/ventaspro.jpg",
+            preview: "Sistema de ventas e inventario multi-empresa, optimizado para celular.",
+            description: "Sistema web desarrollado en Python con Flask y MySQL, diseñado para gestionar ventas, inventario, clientes y trabajadores desde el celular. Soporta múltiples empresas con datos completamente aislados por empresa. Incluye roles de usuario (admin, vendedor, inventario), control de stock mínimo con alertas, gestión de clientes con deuda (fiados), historial de ventas del día, imágenes de productos con Cloudinary y acceso en red local o vía ngrok. Desplegado localmente y expuesto con ngrok.",
+            location: "https://ambrosially-nongestical-keenan.ngrok-free.app",
+            time: "ACTIVO"
         },
     ];
 
